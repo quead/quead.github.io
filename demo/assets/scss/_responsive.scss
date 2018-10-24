@@ -43,10 +43,6 @@
     .feed-video-list {
         width: calc(100% - 20px);
     }
-
-    .youtube-player {
-        padding: 0 10px;
-    }
 }
 
 @media screen and (max-width: 1199px) {
@@ -153,17 +149,6 @@
         overflow: visible;
     }
 
-    #related-video-list {
-        position: relative;
-        height: auto;
-        display: block;
-        margin-top: 10px;
-        .related-video-content {
-            position: relative;
-            height: 160px;
-        }
-    }
-
     .feed-video-list {
         position: relative;
         width: 100%;
@@ -178,10 +163,5 @@
         label {
             margin-bottom: 5px;
         }
-    }
-
-    #playlist-video-list .playlist-video-content {
-        bottom: 45px;
-        height: calc(100% - 84px);
     }
 }
